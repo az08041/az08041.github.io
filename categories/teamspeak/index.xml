@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Radmin Lan on cyyxz</title>
-        <link>https://az08041.github.io/categories/radmin-lan/</link>
-        <description>Recent content in Radmin Lan on cyyxz</description>
+        <title>TeamSpeak on cyyxz</title>
+        <link>https://az08041.github.io/categories/teamspeak/</link>
+        <description>Recent content in TeamSpeak on cyyxz</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Fri, 04 Jul 2025 22:33:05 +0800</lastBuildDate><atom:link href="https://az08041.github.io/categories/radmin-lan/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 04 Jul 2025 22:33:05 +0800</lastBuildDate><atom:link href="https://az08041.github.io/categories/teamspeak/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>使用 Radmin LAN 搭建 TeamSpeak 语音服务器</title>
         <link>https://az08041.github.io/p/%E4%BD%BF%E7%94%A8-radmin-lan-%E6%90%AD%E5%BB%BA-teamspeak-%E8%AF%AD%E9%9F%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
         <pubDate>Fri, 04 Jul 2025 22:33:05 +0800</pubDate>
@@ -74,69 +74,6 @@
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>用radminlan和好友联机mc</title>
-        <link>https://az08041.github.io/p/%E7%94%A8radminlan%E5%92%8C%E5%A5%BD%E5%8F%8B%E8%81%94%E6%9C%BAmc/</link>
-        <pubDate>Fri, 04 Jul 2025 18:31:46 +0800</pubDate>
-        
-        <guid>https://az08041.github.io/p/%E7%94%A8radminlan%E5%92%8C%E5%A5%BD%E5%8F%8B%E8%81%94%E6%9C%BAmc/</guid>
-        <description>&lt;img src="https://az08041.github.io/p/%E7%94%A8radminlan%E5%92%8C%E5%A5%BD%E5%8F%8B%E8%81%94%E6%9C%BAmc/img/cover.PNG" alt="Featured image of post 用radminlan和好友联机mc" /&gt;&lt;h2 id=&#34;搭建步骤&#34;&gt;搭建步骤
-&lt;/h2&gt;&lt;h3 id=&#34;1-创建网络&#34;&gt;1. 创建网络
-&lt;/h3&gt;&lt;p&gt;&lt;figure class=&#34;custom-image&#34;&gt;&lt;img src=&#34;https://az08041.github.io/p/%E7%94%A8radminlan%E5%92%8C%E5%A5%BD%E5%8F%8B%E8%81%94%E6%9C%BAmc/img/1.PNG&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
-      &lt;h4&gt;Radmin LAN 网络设置&lt;/h4&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-设置用户名和密码，记住本机IP地址&lt;/p&gt;
-&lt;h3 id=&#34;2-创建游戏世界&#34;&gt;2. 创建游戏世界
-&lt;/h3&gt;&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://az08041.github.io/p/%E7%94%A8radminlan%E5%92%8C%E5%A5%BD%E5%8F%8B%E8%81%94%E6%9C%BAmc/img/2.PNG&#34; width=&#34;90%&#34;&gt;&lt;figcaption&gt;
-      &lt;h4&gt;Minecraft 世界设置&lt;/h4&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-打开局域网连接，记住端口号&lt;/p&gt;
-&lt;h3 id=&#34;3-连接服务器&#34;&gt;3. 连接服务器
-&lt;/h3&gt;&lt;p&gt;使用格式：&lt;code&gt;IP地址:端口号&lt;/code&gt;&lt;br&gt;
-示例：&lt;code&gt;26.21.69.30:25565&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;连接示意图：&lt;br&gt;
-&lt;img src=&#34;https://az08041.github.io/p/%E7%94%A8radminlan%E5%92%8C%E5%A5%BD%E5%8F%8B%E8%81%94%E6%9C%BAmc/img/2.2.PNG&#34;
-	width=&#34;1541&#34;
-	height=&#34;972&#34;
-	srcset=&#34;https://az08041.github.io/p/%E7%94%A8radminlan%E5%92%8C%E5%A5%BD%E5%8F%8B%E8%81%94%E6%9C%BAmc/img/2.2_hu_c11d7aa8d3528d89.PNG 480w, https://az08041.github.io/p/%E7%94%A8radminlan%E5%92%8C%E5%A5%BD%E5%8F%8B%E8%81%94%E6%9C%BAmc/img/2.2_hu_3075a5e5e67bcc76.PNG 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;服务器连接示意图&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;158&#34;
-		data-flex-basis=&#34;380px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;注&lt;/strong&gt;：如连接失败：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;下载&lt;a class=&#34;link&#34; href=&#34;https://www.curseforge.com/minecraft/mc-mods/lan-server-properties&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;自定义局域网联机 Mod&lt;/a&gt;
-&lt;img src=&#34;https://az08041.github.io/p/%E7%94%A8radminlan%E5%92%8C%E5%A5%BD%E5%8F%8B%E8%81%94%E6%9C%BAmc/img/3.2.PNG&#34;
-	width=&#34;1258&#34;
-	height=&#34;412&#34;
-	srcset=&#34;https://az08041.github.io/p/%E7%94%A8radminlan%E5%92%8C%E5%A5%BD%E5%8F%8B%E8%81%94%E6%9C%BAmc/img/3.2_hu_eca1a9b92d9c06d6.PNG 480w, https://az08041.github.io/p/%E7%94%A8radminlan%E5%92%8C%E5%A5%BD%E5%8F%8B%E8%81%94%E6%9C%BAmc/img/3.2_hu_48b6abd5eebe98f6.PNG 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Mod界面截图&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;305&#34;
-		data-flex-basis=&#34;732px&#34;
-	
-&gt;&lt;/li&gt;
-&lt;li&gt;关闭正版验证&lt;/li&gt;
-&lt;li&gt;确保所有玩家在同一网络&lt;/li&gt;
-&lt;/ol&gt;&lt;/blockquote&gt;
 </description>
         </item>
         

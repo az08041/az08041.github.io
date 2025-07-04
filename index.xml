@@ -7,7 +7,76 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Fri, 04 Jul 2025 18:31:46 +0800</lastBuildDate><atom:link href="https://az08041.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 04 Jul 2025 22:33:05 +0800</lastBuildDate><atom:link href="https://az08041.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>使用 Radmin LAN 搭建 TeamSpeak 语音服务器</title>
+        <link>https://az08041.github.io/p/%E4%BD%BF%E7%94%A8-radmin-lan-%E6%90%AD%E5%BB%BA-teamspeak-%E8%AF%AD%E9%9F%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+        <pubDate>Fri, 04 Jul 2025 22:33:05 +0800</pubDate>
+        
+        <guid>https://az08041.github.io/p/%E4%BD%BF%E7%94%A8-radmin-lan-%E6%90%AD%E5%BB%BA-teamspeak-%E8%AF%AD%E9%9F%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+        <description>&lt;img src="https://az08041.github.io/p/%E4%BD%BF%E7%94%A8-radmin-lan-%E6%90%AD%E5%BB%BA-teamspeak-%E8%AF%AD%E9%9F%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/img/cover.jpg" alt="Featured image of post 使用 Radmin LAN 搭建 TeamSpeak 语音服务器" /&gt;&lt;h1 id=&#34;teamspeak-服务器搭建指南&#34;&gt;TeamSpeak 服务器搭建指南
+&lt;/h1&gt;&lt;h4 id=&#34;下载所需文件&#34;&gt;下载所需文件
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;TeamSpeak 客户端&lt;/strong&gt; ：&lt;a class=&#34;link&#34; href=&#34;https://www.teamspeak.com/zh-CN/downloads/#ts3client&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;下载地址&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TeamSpeak 服务器&lt;/strong&gt; ：&lt;a class=&#34;link&#34; href=&#34;https://www.teamspeak.com/zh-CN/downloads/#server&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;下载地址&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;中文汉化包&lt;/strong&gt; ：&lt;a class=&#34;link&#34; href=&#34;https://github.com/VigorousPro/TS3-Translation_zh-CN/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;下载地址&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;1-安装teamspeak并汉化&#34;&gt;1. 安装Teamspeak并汉化
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;关闭 TeamSpeak 客户端&lt;/li&gt;
+&lt;li&gt;打开中文汉化包文件&lt;/li&gt;
+&lt;li&gt;重新启动 TeamSpeak 客户端&lt;/li&gt;
+&lt;li&gt;检查界面是否已变为中文&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;安装过程中不要勾选 &amp;ldquo;Install Overwolf&amp;rdquo; 选项&lt;br&gt;
+&lt;figure&gt;&lt;img src=&#34;https://az08041.github.io/p/%E4%BD%BF%E7%94%A8-radmin-lan-%E6%90%AD%E5%BB%BA-teamspeak-%E8%AF%AD%E9%9F%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/img/d.PNG&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;h4&gt;安装注意事项&lt;/h4&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;服务器程序只需主机安装，客户机无需安装&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;2-优化音频设置&#34;&gt;2. 优化音频设置
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;在 TeamSpeak 客户端中：点击顶部菜单的 &lt;strong&gt;工具&lt;/strong&gt; → &lt;strong&gt;设置&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;选择 &lt;strong&gt;音频输入&lt;/strong&gt; 选项，勾选 &lt;strong&gt;回声消除&lt;/strong&gt; 选项
+&lt;figure&gt;&lt;img src=&#34;https://az08041.github.io/p/%E4%BD%BF%E7%94%A8-radmin-lan-%E6%90%AD%E5%BB%BA-teamspeak-%E8%AF%AD%E9%9F%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/img/y.PNG&#34; width=&#34;70%&#34;&gt;&lt;figcaption&gt;
+      &lt;h4&gt;音频配置&lt;/h4&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;3配置服务器&#34;&gt;3.配置服务器
+&lt;/h3&gt;&lt;p&gt;1.打开radmin lan 创建服务器,复制radminlan中主机的IP地址作为ts的服务器地址,例：&lt;code&gt;26.21.69.30&lt;/code&gt;
+&lt;figure&gt;&lt;img src=&#34;https://az08041.github.io/p/%E4%BD%BF%E7%94%A8-radmin-lan-%E6%90%AD%E5%BB%BA-teamspeak-%E8%AF%AD%E9%9F%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/img/r.PNG&#34; width=&#34;50%&#34;&gt;&lt;figcaption&gt;
+      &lt;h4&gt;radmin lan&lt;/h4&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+2.打开team speak server，记下server admin privilege key
+&lt;figure&gt;&lt;img src=&#34;https://az08041.github.io/p/%E4%BD%BF%E7%94%A8-radmin-lan-%E6%90%AD%E5%BB%BA-teamspeak-%E8%AF%AD%E9%9F%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/img/s.PNG&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;h4&gt;服务器配置建议保存&lt;/h4&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+3.用ts连接到该服务器，输入server admin privilege key获得权限
+&lt;figure&gt;&lt;img src=&#34;https://az08041.github.io/p/%E4%BD%BF%E7%94%A8-radmin-lan-%E6%90%AD%E5%BB%BA-teamspeak-%E8%AF%AD%E9%9F%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/img/q.PNG&#34; width=&#34;60%&#34;&gt;
+&lt;/figure&gt;
+
+3.点击&lt;strong&gt;书签&lt;/strong&gt; &amp;gt; &amp;gt; &lt;strong&gt;添加到书签&lt;/strong&gt;，保存服务器
+&lt;figure&gt;&lt;img src=&#34;https://az08041.github.io/p/%E4%BD%BF%E7%94%A8-radmin-lan-%E6%90%AD%E5%BB%BA-teamspeak-%E8%AF%AD%E9%9F%B3%E6%9C%8D%E5%8A%A1%E5%99%A8/img/sq.PNG&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;h4&gt;保存书签方便下次打开&lt;/h4&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>用radminlan和好友联机mc</title>
         <link>https://az08041.github.io/p/%E7%94%A8radminlan%E5%92%8C%E5%A5%BD%E5%8F%8B%E8%81%94%E6%9C%BAmc/</link>
         <pubDate>Fri, 04 Jul 2025 18:31:46 +0800</pubDate>
